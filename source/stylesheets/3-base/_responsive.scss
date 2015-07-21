@@ -1,0 +1,16 @@
+$media-stack:
+  (group: xs, id: general, rule: 'only screen and (max-width: 480px)'),
+  (group: sm, id: general, rule: 'only screen and (max-width: 768px)'),
+  (group: md, id: general, rule: 'only screen and (max-width: 992px)'),
+  (group: lg, id: general, rule: 'only screen and (max-width: 1200px)'),
+  (group: print, id: general, rule: 'only print'),
+  (group: custom, id: screen, rule: 'only screen and');
+
+@mixin media($group, $id: general, $custom-rule: '') {
+  @each $media in $media-stack {
+    @if($group == map-get($media, group) and $id == map-get($media, id)){
+      $rule: map-get($media, rule);
+      @media #{$rule} #{$custom-rule} {@content}
+    }
+  }
+}

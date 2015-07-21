@@ -1,0 +1,36 @@
+$color-stack:
+	(group: black, id: normal, color: #000),
+	(group: white, id: normal, color: #fff),
+
+	(group: text, id: primary, color: #000),
+	(group: text, id: secondary, color: #000),
+	(group: gray, id: divider, color: #9b9b9b),
+	(group: gray, id: pale, color: #eee),
+
+	(group: social, id: facebook, color: #3b5998),
+	(group: social, id: instagram, color: #3f729b),
+	(group: social, id: email, color: #f26798),
+
+	(group: blue, id: 300, color: #64b5f6),
+	(group: blue, id: 500, color: #2196f3),
+	(group: blue, id: 700, color: #1976d2),
+
+	(group: pink, id: A100, color: #ff80ab);
+
+
+// Color  Function
+@function color($group, $shade:normal, $transparency:1) {
+  @each $color in $color-stack {
+    $c-group: map-get($color, group);
+    $c-shade: map-get($color, id);
+    @if($group == map-get($color, group) and $shade == map-get($color, id)){
+      @return rgba(map-get($color, color), $transparency);
+    }
+  }
+}
+
+$colors: (
+	"facebook": "#3B5998",
+	"instagram": "#3f729b",
+	"mail": "#F26798"
+);

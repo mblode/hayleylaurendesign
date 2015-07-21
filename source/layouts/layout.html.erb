@@ -1,0 +1,17 @@
+  <%= partial "partials/head" %>
+</head>
+  <body>
+    <%= partial "partials/nav" %>
+
+    <div class="container">
+      <div class="row">
+        <%= yield %>
+      </div>
+    </div>
+
+    <%= partial "partials/footer" %>
+
+    <%= javascript_include_tag "all" %>
+
+  </body>
+</html>

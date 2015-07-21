@@ -1,0 +1,45 @@
+---
+title: Work
+pageable: true
+blog: work
+---
+
+<div class="col-sm-12">
+  <h1 class="portfolio__title">Portfolio</h1>
+</div>
+
+<div class="col-sm-12">
+  <% if paginate && num_pages > 1 %>
+    <p>Page <%= page_number %> of <%= num_pages %></p>
+
+    <% if prev_page %>
+      <p><%= link_to 'Previous page', prev_page %></p>
+    <% end %>
+  <% end %>
+</div>
+
+<% page_articles.each_with_index do |article, i| %>
+ <div class="col-xs-12 col-sm-6 col-md-4">
+   <% link_to article, :class => "thumbnail" do %>
+     <div class="caption">
+       <h2 class="caption__likes"><%= article.title %></h2>
+     </div>
+     <%= image_tag article.data.img, { :class => 'img-responsive' } %>
+   <% end %>
+ </div>
+<% end %>
+
+<div class="col-sm-12">
+  <% if paginate %>
+    <% if next_page %>
+      <p><%= link_to 'Next page', next_page %></p>
+    <% end %>
+  <% end %>
+</div>
+
+<div class="col-sm-12">
+  <h2>Instagram</h2>
+  <h2><small>@hayleylaurendesign</small></h2>
+</div>
+
+<%= partial "partials/instagram" %>

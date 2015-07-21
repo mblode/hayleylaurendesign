@@ -1,0 +1,105 @@
+.gallery {
+  height: 500px;
+  width: 100%;
+
+  .gallery-cell {
+    height: 100%;
+    width: auto;
+
+    img {
+      height: 100%;
+      max-width: none;
+    }
+  }
+}
+
+.flickity-prev-next-button {
+  background: color(white);
+  box-shadow: $bs-1;
+  transition: $trans;
+
+  .no-svg {
+    color: color(black, normal, .54);
+    transition: $trans;
+  }
+
+  .arrow {
+    fill: color(black, normal, .54);
+    transition: $trans;
+  }
+
+  &:hover {
+    background: color(blue, 300);
+
+    .no-svg {
+      color: color(white);
+    }
+
+    .arrow {
+      fill: color(white);
+    }
+  }
+
+  &:active {
+    background: color(blue, 300);
+    border-color: color(white);
+
+    .no-svg {
+      color: color(white);
+    }
+
+    .arrow {
+      fill: color(white);
+    }
+  }
+}
+
+// .flickity-prev-next-button .arrow {
+//   &:hover {
+//     fill: color(white);
+//   }
+//
+//   &:active {
+//     fill: color(white);
+//   }
+// }
+//
+// .flickity-prev-next-button.no-svg {
+//   &:hover {
+//     color: color(white);
+//   }
+//
+//   &:active {
+//     color: color(white);
+//   }
+// }
+
+.flickity-prev-next-button:active {
+  opacity: 1;
+}
+
+.flickity-page-dots {
+  bottom: 12px;
+
+  .dot {
+    background: color(white);
+    border: 2px solid white;
+    box-shadow: $bs-1;
+    height: 14px;
+    opacity: 1;
+    transition: $trans;
+    width: 14px;
+
+    &.is-selected {
+      background: color(pink, A100);
+    }
+
+    &:hover {
+      background: color(blue, 300);
+    }
+
+    &:active {
+      background: color(blue, 300);
+    }
+  }
+}

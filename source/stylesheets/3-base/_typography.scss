@@ -1,0 +1,58 @@
+$font-stack:
+  (group: serif, id: 400, font: ('Palatino Linotype', 'Book Antiqua', Palatino, serif), weight: 400, style: normal),
+  (group: serif, id: 400+italic, font: ('Palatino Linotype', 'Book Antiqua', Palatino, serif), weight: 400, style: italic),
+  (group: serif, id: 700, font: ('Palatino Linotype', 'Book Antiqua', Palatino, serif), weight: 700, style: normal),
+  (group: sans, id: 300, font: ('Open Sans', 'Helvetica-Neue', 'helvetica', 'Arial' sans-serif), weight: 300, style: normal),
+  (group: sans, id: 400, font: ('Open Sans', 'Helvetica-Neue', 'helvetica', 'Arial' sans-serif), weight: 400, style: normal),
+  (group: sans, id: 400+italic, font: ('Open Sans', 'Helvetica-Neue', 'helvetica', 'Arial' sans-serif), weight: 400, style: italic),
+  (group: sans, id: 700, font: ('Open Sans', 'Helvetica-Neue', 'helvetica', 'Arial' sans-serif), weight: 700, style: normal);
+
+@mixin font($group, $id:regular) {
+  @each $font in $font-stack {
+    @if($group == map-get($font, group) and $id == map-get($font, id)){
+      font-family: map-get($font, font);
+      font-style: map-get($font, style);
+      font-weight: map-get($font, weight);
+    }
+  }
+}
+
+html {
+  color: color(black, normal, .87);
+}
+
+body {
+  @include font(sans, 400);
+  font-size: $font-size;
+}
+
+h1,
+h2,
+h3 {
+  @include font(sans, 500);
+}
+
+p {
+  @include font(sans, 400);
+  font-size: $font-size;
+}
+
+a {
+  color: color(blue, 700);
+  transition: color $trans-speed;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: color(blue, 500);
+    text-decoration: none;
+  }
+}
+
+i {
+  @include font(sans, 400+italic);
+}
+
+b {
+  @include font(sans, 700);
+}

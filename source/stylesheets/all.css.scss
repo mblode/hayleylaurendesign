@@ -1,0 +1,47 @@
+@charset 'utf-8';
+
+$fa-css-prefix:       fa !default;
+$fa-border-color:     #eee !default;
+$fa-inverse:          #fff !default;
+$fa-li-width:         (30em / 14) !default;
+
+$fa-enable-utilities: true !default;
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+@import 'font-awesome';
+
+@import
+'1-vendors/flickity';
+
+@import
+'2-utils/variables',
+'2-utils/functions',
+'2-utils/mixins',
+'2-utils/helpers';
+
+@import
+'3-base/color',
+'3-base/typography',
+'3-base/responsive';
+
+@import
+'4-layout/structure',
+'4-layout/navigation',
+'4-layout/header',
+'4-layout/posts',
+'4-layout/instagram',
+'4-layout/portfolio',
+'4-layout/slider',
+'4-layout/about',
+'4-layout/contact',
+'4-layout/footer';
+
+@import
+'5-components/button',
+'5-components/media';
+
+@import
+'6-pages/home',
+'6-pages/post';

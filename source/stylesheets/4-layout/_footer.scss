@@ -1,0 +1,45 @@
+.footer__text {
+  color: color(black, normal, .54);
+  font-size: 14px;
+  line-height: 98px;
+  margin: 0;
+}
+
+.footer__social {
+  display: inline-block;
+  height: 98px;
+  line-height: 98px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  transition: $trans;
+  vertical-align: middle;
+  width: 100%;
+
+  .fa {
+    transition: $trans;
+    vertical-align: middle;
+  }
+
+  @each $class,$color in $colors {
+    &.#{$class} {
+      &:hover {
+        background-color: #{$color};
+      }
+
+      .fa {
+        color: #{$color};
+      }
+    }
+  }
+
+  &:hover {
+    .fa {
+      color: color(white);
+    }
+  }
+
+  &:focus {
+    opacity: .85;
+  }
+}

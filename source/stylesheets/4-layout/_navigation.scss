@@ -1,0 +1,85 @@
+.navbar {
+  background: color(white);
+  border: 0;
+  transform: translate3d(0,0,0);
+
+  .container {
+    border-bottom: 1px solid color(black, normal, .12);
+  }
+}
+
+.navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: color(black, normal, .54) !important;
+}
+
+.navbar-default {
+  .navbar-nav {
+    > li {
+      > a {
+        transition: $trans;
+
+        &:hover,
+        &:focus {
+          background-color: color(blue, 300);
+          color: color(white) !important;
+        }
+      }
+    }
+
+    > .active {
+      > a,
+      > a:hover,
+      > a:focus {
+        background-color: color(pink, A100);
+        color: color(white) !important;
+      }
+    }
+
+    > .open {
+      > a,
+      > a:hover,
+      > a:focus {
+        background-color: color(white);
+        color: color(white);
+      }
+    }
+  }
+
+  .navbar-toggle {
+    border-color: color(white);
+
+    &:hover,
+    &:focus {
+      background-color: color(white);
+    }
+
+    .icon-bar {
+      background-color: color(text, primary);
+    }
+  }
+
+  .navbar-collapse,
+  .navbar-form {
+    border-color: color(white);
+  }
+
+  .navbar-link {
+    &:hover {
+      color: color(white);
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > .active {
+      > a,
+      > a:hover,
+      > a:focus {
+        background-color: color(blue, 300);
+        color: color(white);
+      }
+    }
+  }
+}

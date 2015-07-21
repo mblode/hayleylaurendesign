@@ -1,0 +1,26 @@
+.hero {
+  height: 400px;
+}
+
+.hero__title {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.hero__text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hero__sub {
+  font-size: 24px;
+}
+
+.hero__underline {
+  background: color(blue, 500);
+  height: 2px;
+  margin: 0 auto;
+  margin-top: $md-pad;
+  width: $xl-pad;
+}
