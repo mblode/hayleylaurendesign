@@ -1,17 +1,4 @@
-###
-# Blog settings
-###
-
-# Time.zone = "UTC"
-set :fonts_dir,  "source/fonts"
-
-activate :bootstrap_navbar
-
-sprockets.append_path File.join root, 'source/javascripts'
-
-activate :autoprefixer do |config|
-  config.browsers = ['last 2 versions']
-end
+Time.zone = "Melbourne"
 
 activate :blog do |blog|
   blog.name = "work"
@@ -59,26 +46,31 @@ page "/feed.xml", layout: false
 # Helpers
 ###
 
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions']
+end
+
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 activate :livereload
 
+set :relative_links, true
+
+activate :directory_indexes
+
+set :fonts_dir,  "source/fonts"
+activate :bootstrap_navbar
+
+sprockets.append_path File.join root, 'source/javascripts'
 
 # Methods defined in the helpers block are available in templates
 helpers do
   def nav_active(path)
     current_page.path == path ? {:class => "active"} : {}
   end
-
 end
-
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'javascripts'
-
-set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
@@ -97,9 +89,9 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 
-  activate :minify_html
+  activate :imageoptim
 
-  # activate :imageoptim
+  activate :minify_html
 
   activate :gzip
 end
@@ -109,5 +101,3 @@ activate :deploy do |deploy|
   deploy.branch = 'gh-pages'
   deploy.build_before = true
 end
-
-activate :directory_indexes
