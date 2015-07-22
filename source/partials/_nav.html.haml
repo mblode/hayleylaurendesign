@@ -6,16 +6,22 @@
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
-      %a.navbar-brand{:href => "/"} Hayley Lauren
+      = link_to '/index.html', :class => 'navbar-brand' do
+        Hayley Lauren
     .collapse.navbar-collapse#bs-example-navbar-collapse-1
       %ul.nav.navbar-nav.navbar-right
         %li{ nav_active('index.html') }
-          %a{:href => "/"} Home
+          = link_to '/index.html' do
+            Home
         %li{ nav_active('about.html') }
-          %a{:href => "/about/"} About
+          = link_to '/about.html' do
+            About
         %li{ nav_active('work.html') }
-          %a{:href => "/work/"} Work
+          = link_to '/work.html' do
+            Work
         %li{ nav_active('collab.html') }
-          %a{:href => "/collab/"} Collaboration
+          = link_to '/collab.html' do
+            Collab
         %li{ nav_active('contact.html') }
-          %a{:href => "/contact/"} Contact
+          = link_to '/contact.html' do
+            Contact
