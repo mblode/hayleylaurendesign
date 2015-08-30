@@ -1,15 +1,8 @@
-.gallery {
-  height: 500px;
-  width: 100%;
+.gallery-cell {
+  height: 400px;
 
-  .gallery-cell {
+  img {
     height: 100%;
-    width: auto;
-
-    img {
-      height: 100%;
-      max-width: none;
-    }
   }
 }
 
@@ -53,26 +46,6 @@
     }
   }
 }
-
-// .flickity-prev-next-button .arrow {
-//   &:hover {
-//     fill: color(white);
-//   }
-//
-//   &:active {
-//     fill: color(white);
-//   }
-// }
-//
-// .flickity-prev-next-button.no-svg {
-//   &:hover {
-//     color: color(white);
-//   }
-//
-//   &:active {
-//     color: color(white);
-//   }
-// }
 
 .flickity-prev-next-button:active {
   opacity: 1;

@@ -9,10 +9,10 @@ $(document).ready(function() {
 
   $('.gallery').flickity({
     accessibility: true,
-    autoPlay: 3000,
+    autoPlay: false,
     cellAlign: 'center',
     cellSelector: undefined,
-    contain: false, 
+    contain: true,
     draggable: true,
     freeScroll: false,
     friction: 0.2,
