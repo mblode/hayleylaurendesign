@@ -37,10 +37,10 @@ $(document).ready(function() {
       }
     },
     get: 'user',
-    userId: 189106638,
+    userId: 432781510,
     limit: 8,
     sortBy: 'most-recent',
-    accessToken: '189106638.467ede5.7a4ef30cf75d4975a765115d6e8e07e1',
+    accessToken: '432781510.467ede5.65d936ff0d334bd5b4ca81bf5f029fe5',
     resolution: 'standard_resolution',
     template: '<div class="col-sm-6 col-md-4 col-lg-3"><a href="{{link}}" alt=Instagram" class="thumbnail" target="_blank"><div class="caption"><h2 class="caption__likes">&hearts; {{likes}}</h2></div><img src="{{image}}" class="img-responsive"></a></div>'
   });
