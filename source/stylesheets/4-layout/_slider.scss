@@ -7,6 +7,12 @@
   }
 }
 
+@media (max-width:767px) {
+  .gallery-cell {
+    height: 250px;
+  }
+}
+
 .flickity-prev-next-button {
   background: color(white);
   box-shadow: $bs-1;
