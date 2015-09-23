@@ -1,24 +1,17 @@
 ---
 title: Soxy Beast
 date: 2015-01-15
-img: "http://i.imgur.com/rUtoJdl.jpg"
+img: "http://i.imgur.com/vDqpf5l.jpg"
 ---
 
 # Soxy Beast
 
-![Soxy Beast](http://i.imgur.com/j69A5eu.jpg){: .img-responsive}
+In 2015, Hayley worked on a collaborative project with the company, Soxy Beast, to raise money for Greenfleet Australia.
+
+Her free flowing sock design is inspired by flora and fauna and aims to connect us to our botanical roots.
+
+![Soxy Beast](http://i.imgur.com/MrxfS13.jpg){: .img-responsive}
 
 ![Soxy Beast](http://i.imgur.com/yQYKSdP.jpg){: .img-responsive}
 
-![Soxy Beast](http://i.imgur.com/7lRTrJ3.jpg){: .img-responsive}
-
-![Soxy Beast](http://i.imgur.com/KAhgHkT.jpg){: .img-responsive}
-
-
 ![Soxy Beast](http://i.imgur.com/k0FyBom.jpg){: .img-responsive}
-
-![Soxy Beast](http://i.imgur.com/PqdIezu.jpg){: .img-responsive}
-
-![Soxy Beast](http://i.imgur.com/Qj8JQMI.jpg){: .img-responsive}
-
-![Soxy Beast](http://i.imgur.com/vl98eAE.jpg){: .img-responsive}

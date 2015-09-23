@@ -18,11 +18,9 @@ $(document).ready(function() {
     friction: 0.2,
     initialIndex: 0,
     imagesLoaded: true,
-    percentPosition: true,
     prevNextButtons: true,
     pageDots: true,
     resize: true,
-    rightToLeft: false,
     setGallerySize: true,
     watchCSS: false,
     wrapAround: true
@@ -42,7 +40,7 @@ $(document).ready(function() {
     sortBy: 'most-recent',
     accessToken: '432781510.467ede5.65d936ff0d334bd5b4ca81bf5f029fe5',
     resolution: 'standard_resolution',
-    template: '<div class="col-sm-6 col-md-4 col-lg-3"><a href="{{link}}" alt=Instagram" class="thumbnail" target="_blank"><div class="caption"><h2 class="caption__likes">&hearts; {{likes}}</h2></div><img src="{{image}}" class="img-responsive"></a></div>'
+    template: '<div class="col-sm-6 col-md-4 col-lg-3"><a href="{{link}}" alt=Instagram" class="thumbnail" target="_blank"><div class="caption"></div><img src="{{image}}" class="img-responsive"></a></div>'
   });
 
   loadButton.addEventListener('click', function() {

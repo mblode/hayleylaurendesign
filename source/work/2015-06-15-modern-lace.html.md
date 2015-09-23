@@ -1,7 +1,7 @@
 ---
 title: Modern Lace
 date: 2015-06-15
-img: "http://i.imgur.com/rUtoJdl.jpg"
+img: "http://i.imgur.com/7w6jdf0.jpg"
 ---
 
 # Modern Lace
