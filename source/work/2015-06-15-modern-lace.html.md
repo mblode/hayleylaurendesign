@@ -1,7 +1,7 @@
 ---
 title: Modern Lace
 date: 2015-06-15
-img: "http://i.imgur.com/7w6jdf0.jpg"
+img: "http://i.imgur.com/6TJBnTH.jpg"
 ---
 
 # Modern Lace
@@ -23,10 +23,10 @@ It is the relationship between the viewer and the crochet, which reinterprets th
 <br>
 
 
-![Modern Lace](http://i.imgur.com/hxx4FLF.jpg){: .img-responsive}
+![Modern Lace](http://i.imgur.com/NrVUyQu.jpg){: .img-responsive}
 
-![Modern Lace](http://i.imgur.com/gpa33eZ.jpg){: .img-responsive}
+![Modern Lace](http://i.imgur.com/Z3wJD48.jpg){: .img-responsive}
 
-![Modern Lace](http://i.imgur.com/IYvILCR.jpg){: .img-responsive}
+![Modern Lace](http://i.imgur.com/WVwgDOe.jpg){: .img-responsive}
 
-![Modern Lace](http://i.imgur.com/GHHrPqP.jpg){: .img-responsive}
+![Modern Lace](http://i.imgur.com/3K0G8Ct.jpg){: .img-responsive}
