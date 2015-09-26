@@ -5,7 +5,7 @@ activate :blog do |blog|
   blog.prefix = "work"
 
   blog.taglink = "categories/{tag}.html"
-  blog.permalink = "{year}/{month}/{day}/{title}.html"
+  blog.permalink = "{title}.html"
   blog.layout = "post"
   blog.summary_separator = /(READMORE)/
   blog.summary_length = 250
@@ -25,7 +25,7 @@ activate :blog do |blog|
   blog.prefix = "collab"
 
   blog.taglink = "categories/{tag}.html"
-  blog.permalink = "{year}/{month}/{day}/{title}.html"
+  blog.permalink = "{title}.html"
   blog.layout = "post"
   blog.summary_separator = /(READMORE)/
   blog.summary_length = 250
