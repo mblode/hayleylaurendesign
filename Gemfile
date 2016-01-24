@@ -20,3 +20,5 @@ gem 'therubyracer'
 gem 'oj'
 
 gem 'nokogiri'
+gem "wdm", :platforms => [:mswin, :mingw]
+gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
