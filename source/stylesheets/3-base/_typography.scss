@@ -35,6 +35,7 @@ h3 {
 p {
   @include font(sans, 400);
   font-size: $font-size;
+  margin-bottom: $md-pad;
 }
 
 a {

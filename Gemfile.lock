@@ -193,7 +193,7 @@ DEPENDENCIES
   builder
   font-awesome-middleman
   jquery-middleman
-  middleman
+  middleman (= 3.4.0)
   middleman-autoprefixer
   middleman-blog
   middleman-bootstrap-navbar
