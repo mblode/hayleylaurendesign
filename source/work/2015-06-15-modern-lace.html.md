@@ -6,6 +6,8 @@ img: "http://i.imgur.com/6TJBnTH.jpg"
 
 # Modern Lace
 
+---
+
 Modern Lace is an interactive three-dimensional crocheted length that reinterprets traditional lace techniques in a contemporary way. It focuses on continuously changing patterned shadows, created through its relationship with light. It adopts a kaleidoscope effect as when the light moves the shadow changes and different patterns are created.
 
 Using a torch, the viewers able to control the movement and scale of the shadow. It responds to themes such as ‘Reinterpreting traditional techniques’ and ‘Interactive textiles,’ as it engages the viewer and makes them apart of the work.
