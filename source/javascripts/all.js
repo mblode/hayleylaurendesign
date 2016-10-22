@@ -35,7 +35,7 @@ $(document).ready(function() {
       }
     },
     get: 'user',
-    userId: 432781510,
+    clientId: '64378ab0d9f541acba98c0b000e81763',
     limit: 8,
     sortBy: 'most-recent',
     accessToken: '432781510.467ede5.65d936ff0d334bd5b4ca81bf5f029fe5',
