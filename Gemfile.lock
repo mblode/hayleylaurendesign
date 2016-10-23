@@ -47,8 +47,6 @@ GEM
     execjs (2.7.0)
     exifr (1.2.5)
     ffi (1.9.14)
-    font-awesome-middleman (4.5.0)
-      middleman-core (~> 3.0)
     fspath (2.1.1)
     gem_config (0.3.1)
     haml (4.0.7)
@@ -192,7 +190,6 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   builder
-  font-awesome-middleman
   jquery-middleman
   middleman (= 3.4.0)
   middleman-autoprefixer
