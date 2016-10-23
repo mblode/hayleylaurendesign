@@ -37,10 +37,11 @@ $(document).ready(function() {
     get: 'user',
     userId: 432781510,
     clientId: '64378ab0d9f541acba98c0b000e81763',
+    accessToken: '3571264559.ba4c844.be06ba9738bd4ee58bc6c2620d22af2b',
     limit: 8,
     sortBy: 'most-recent',
     resolution: 'standard_resolution',
-    template: '<div class="col-sm-6 col-md-4 col-lg-3"><a href="{{link}}" alt=Instagram" class="thumbnail" target="_blank"><div class="caption"></div><img src="{{image}}" class="img-responsive"></a></div>'
+    template: '<div class="insta"><a href="{{link}}" alt=Instagram" class="" target="_blank"><div class="caption"></div><img src="{{image}}" class="img-responsive"></a></div>'
   });
 
   loadButton.addEventListener('click', function() {
