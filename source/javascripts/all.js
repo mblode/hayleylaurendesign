@@ -35,10 +35,10 @@ $(document).ready(function() {
       }
     },
     get: 'user',
+    userId: 432781510,
     clientId: '64378ab0d9f541acba98c0b000e81763',
     limit: 8,
     sortBy: 'most-recent',
-    accessToken: '432781510.467ede5.65d936ff0d334bd5b4ca81bf5f029fe5',
     resolution: 'standard_resolution',
     template: '<div class="col-sm-6 col-md-4 col-lg-3"><a href="{{link}}" alt=Instagram" class="thumbnail" target="_blank"><div class="caption"></div><img src="{{image}}" class="img-responsive"></a></div>'
   });
