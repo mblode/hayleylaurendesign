@@ -14,9 +14,3 @@ gem 'middleman-imageoptim'
 gem 'middleman-bootstrap-navbar'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
-
-gem 'therubyracer'
-gem 'oj'
-
-gem "wdm", :platforms => [:mswin, :mingw]
-gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
